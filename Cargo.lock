@@ -1,0 +1,30 @@
+[root]
+name = "trezor-rust"
+version = "0.1.0"
+dependencies = [
+ "compiler-builtins-snapshot 0.0.20161008+c56faf22abb39724008148d58f12bcd43b6d236b (registry+https://github.com/rust-lang/crates.io-index)",
+ "r0 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "compiler-builtins-snapshot"
+version = "0.0.20161008+c56faf22abb39724008148d58f12bcd43b6d236b"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "rlibc 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "r0"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rlibc"
+version = "1.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum compiler-builtins-snapshot 0.0.20161008+c56faf22abb39724008148d58f12bcd43b6d236b (registry+https://github.com/rust-lang/crates.io-index)" = "ca81a7af7dcd70e798e34f9928e22c35204059493ffe3cda46a2f0c797209cf6"
+"checksum r0 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "62dbff51d8763241abca5bbd183ba31e78c0def1d7e2cbe11d4ac3303ae75628"
+"checksum rlibc 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "fc874b127765f014d792f16763a81245ab80500e2ad921ed4ee9e82481ee08fe"
